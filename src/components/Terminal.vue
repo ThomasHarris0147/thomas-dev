@@ -79,7 +79,7 @@ const inputValue = ref('')
 const inputRef = ref(null)
 const showOriginalImage = ref(false)
 const animationComplete = ref(false)
-const imagePath = '/src/assets/picture.jpg'
+import imagePath from '../assets/picture.jpg'
 
 onMounted(() => {
   inputRef.value?.focus()
